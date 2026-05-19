@@ -35,6 +35,12 @@ export default function Home() {
           >
             Hello
           </button>
+          <button
+            className="inline-block px-8 py-3 bg-accent/20 text-foreground rounded-full font-medium hover:bg-accent/30 transition-colors duration-300 border border-accent/30"
+            style={{ fontFamily: geist.style.fontFamily }}
+          >
+            Hello pavlos
+          </button>
         </div>
 
         <div className="pt-16 text-sm text-secondary/60">

@@ -22,12 +22,18 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="pt-8">
+        <div className="pt-8 flex gap-4 justify-center flex-wrap">
           <button
             className="inline-block px-8 py-3 bg-primary text-background rounded-full font-medium hover:bg-accent transition-colors duration-300 shadow-lg hover:shadow-xl hover:shadow-primary/50"
             style={{ fontFamily: geist.style.fontFamily }}
           >
             Get Started
+          </button>
+          <button
+            className="inline-block px-8 py-3 bg-secondary/20 text-foreground rounded-full font-medium hover:bg-secondary/30 transition-colors duration-300 border border-secondary/30"
+            style={{ fontFamily: geist.style.fontFamily }}
+          >
+            Hello
           </button>
         </div>
 

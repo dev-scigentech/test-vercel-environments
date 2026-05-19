@@ -12,7 +12,7 @@ export default function Home() {
             className="text-6xl md:text-7xl font-light tracking-tight text-foreground text-balance"
             style={{ fontFamily: geist.style.fontFamily }}
           >
-            Hello
+            stage
           </h1>
           <p 
             className="text-xl md:text-2xl text-secondary font-light leading-relaxed"
